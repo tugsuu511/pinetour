@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(244, 244, 244, 1);
+    ;
+}
+
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    height: 228px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+
+}
+
+.footer-section {
+    height: 44px;
+    width: 167px;
+    padding-left: 20px;
+}
+
+#footer-1 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.img {
+    width: 284px;
+    height: 400px;
+}
+
+#intro-section {
+    width: 1200px;
+    height: 605px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#direction-section {
+    width: 1198px;
+    height: 845px;
+    margin-top: 240px;
+
+}
+
+#destination {
+    width: 358px;
+    height: 796px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+#direction-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 197px;
+}
+
+#DD {
+    height: 559px;
+    width: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(29, 31, 36, 1);
+}
+
+.line {
+    height: 40px;
+    border-style: dotted;
+    border-left: 2px solid black dashed;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.d {
+    color: rgba(22, 169, 74, 1);
+}
+
+.location {
+    width: 231;
+    height: 58px;
+}
+
+.location-name {
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 700;
+    color: black;
+}
+
+.location-city {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    color: rgba(119, 119, 119, 1);
+
+}
+
+#Pricing-section {
+    height: 607px;
+    width: 789px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 240px;
+
+
+}
+
+#Pricing {
+    height: 29px;
+    width: 107px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: rgba(171, 171, 171, 1);
+
+}
+
+.POOA {
+    font-size: 52px;
+    line-height: 58.51px;
+    color: rgba(48, 48, 48, 1);
+}
+
+.price-box {
+    height: 370px;
+    width: 285px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.breackdown {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: rgba(119, 119, 119, 1);
+}
+
+.ul {
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 10px;
+}
+#ready-section{
+    width: 100vw;
+    height: 393px;
+    background-color: rgba(23, 23, 23, 1);
+    margin-top: 240px;
+}
+#order-now{
+    height: 44px;
+    width: 130px;
+    background-color: rgba(24, 186, 81, 1);
+    border-radius: 8px;
+    color: white;
+    
+}
+#ready-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    gap: 10px;
+}
+.img:hover{
+    transform: scale(1.1);
+    z-index: 5;
+    transition: 1s;
+}
+.price-box:hover {
+    transition: 0.1s;
+    border: 2px solid green
+
+}
